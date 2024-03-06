@@ -1,8 +1,8 @@
-# Data Assignement 2 - linklist and merge sort #
+# Data Assignment 2 - linklist and merge sort #
 ## Data Structures    March 15th 2024 ##
 
 
-Having done the last assignement in Python, I wanted to cut my teeth in to programming in Java again.  With really only using
+Having done the last assignment in Python, I wanted to cut my teeth in to programming in Java again.  With really only using
 servlets and spring, I was missing getting to program in console too!
 
 
