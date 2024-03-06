@@ -18,7 +18,9 @@ The next functions we have are the insert ones.
 
 
 ![image](https://github.com/Dunfiena/Data_Structures-Assignment_2/assets/117761149/5c0c673e-5595-4265-af39-6b6c37574086)
+
 ![image](https://github.com/Dunfiena/Data_Structures-Assignment_2/assets/117761149/d4cb83cb-4962-4c42-9e5c-d34ae880b3f5)
+
 ![image](https://github.com/Dunfiena/Data_Structures-Assignment_2/assets/117761149/2137a91c-23f5-4923-88d1-7bf630134cd9)
 
 
