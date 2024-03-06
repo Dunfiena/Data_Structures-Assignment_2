@@ -7,9 +7,10 @@ servlets and spring, I was missing getting to program in console too!
 
 
 This linklist data structure assignment is comprised of three class
-  1) main
+  1) Main
   2) Node
   3) linklist
+     
 And is very much what we worked on in classes before the break.  There isn't much of interest in the basic setup, so we'll skip over that.
 
 ### Functions ###
