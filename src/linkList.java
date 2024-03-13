@@ -58,7 +58,8 @@ public class linkList<T> {
         if (index == 0) {
             insert_first(data);
         } else if (index > this.size()) {
-            System.out.println("    WARNING: Index " + index +" out of bounds in list size " + this.size());
+            System.out.println("    WARNING: Index " + index +" " +
+                    "out of bounds in list size " + this.size());
         } else if (index == this.size()) {
             insert_last(data);
         } else {
@@ -89,7 +90,8 @@ public class linkList<T> {
         if (index == 0) {
             delete_first();
         }else if (index > this.size()) {
-            System.out.println("    WARNING: Index " + index +" out of bounds in list size " + this.size());
+            System.out.println("    WARNING: Index " + index +" " +
+                    "out of bounds in list size " + this.size());
         } else if (index == this.size()) {
             delete_last();
         } else {
@@ -133,7 +135,8 @@ public class linkList<T> {
     }
 
 
-    public linkList<Object> merge_sort(linkList<Object> a, linkList<Object> b){
+    public linkList<Object> merge_sort(linkList<Object> a,
+                                       linkList<Object> b){
         sort(a);
         sort(b);
         for (int i = 0; i < b.size(); i++) {
@@ -145,13 +148,11 @@ public class linkList<T> {
 
     private void sort(linkList<Object> b) {
         for (int i = 0; i < b.size(); i++){
-            boolean swapped = false;
             for(int j = 0; j < b.size(); j++){
                 if (b.get(i) < b.get(j)) {
-                    swapped = true;
-                    int tm = b.get(i);
+                    int tmp = b.get(i);
                     b.set(i, b.get(j));
-                    b.set(j, tm);
+                    b.set(j, tmp);
                 }
             }
         }
